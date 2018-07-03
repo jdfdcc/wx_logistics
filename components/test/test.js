@@ -1,5 +1,5 @@
 // components/test.js
-var behavior = require('../../common/my-behavior');
+var behavior = require('../../behavior/my-behavior');
 Component({
   options: {
     multipleSlots: true

@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/demo/activity618/activity",
     "pages/demo/test/test",
-    "pages/index/index",
+    
     "pages/logs/logs"
   ],
   "window": {

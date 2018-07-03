@@ -11,14 +11,15 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
+    name = '这是'
     wx.navigateTo({
-      url: '../logs/logs'
+      url: "../logs/logs?key=value&key2=value2"
     })
   },
   // 跳转页面
   toPageTest: function () {
     wx.navigateTo({
-      url: '../demo/test/test',
+      url: '../demo/test/test?name=zs',
     })
   },
   onMyEvent: function (e, param1) {

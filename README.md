@@ -1,5 +1,5 @@
 目录结构
----comon 公共的方法Behavior 设置
+---behavior 公共的方法Behavior 设置
 ---components 公共组件
 ---config 服务器地址配置
 ---pages 开发模块
