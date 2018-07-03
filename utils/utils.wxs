@@ -1,0 +1,8 @@
+/**
+ * 相当于过滤器么？@todu
+ */
+var NAME = "Z_SAN";
+
+module.exports = {
+  NAME: NAME
+};

@@ -1,0 +1,17 @@
+<!--pages/demo/test/test.wxml-->
+<wxs src="./../../../utils/utils.wxs" module="tools" />
+
+<!-- <view wx:for="{{fontSize}}" wx:key="{{item}}" style="font-size: {{item + 'rpx'}}">{{item}}rpx</view> -->
+
+<!-- <view> {{tools.NAME}} </view> -->
+
+
+<view class="section">
+  <input placeholder="测试" value='{{testText}}' bindinput='inputText' auto-focus/>
+</view>
+<switch checked="{{checked}}" value="{{false}}" bindchange="switchChange"/>
+
+<view style='margin-top: 200px'>
+  <button bindtap='getText'>获取输入框的值</button>
+</view>
+

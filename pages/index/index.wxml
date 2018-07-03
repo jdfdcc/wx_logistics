@@ -1,0 +1,15 @@
+<!-- 引用组件的页面模版 -->
+<import src="../../templates/item"/>
+
+
+<!--内容区域  -->
+<button bindtap="toPageTest">跳转</button>
+
+<view>
+  <my-component  my-class="red-text"  bindmyevent="onMyEvent" innerText="{{item}}"  wx:for="{{list}}" wx:key = "{{item}}">
+    <text slot="header">我是内容</text>
+    <text slot="footer">我是内容</text>
+  </my-component>
+</view>
+
+<template is="item" data="{{...data}}" />

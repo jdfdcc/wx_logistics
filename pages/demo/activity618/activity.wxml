@@ -1,0 +1,9 @@
+<lazy-load imgList="{{imgList}}"> 
+  <view class='page_context'>
+    <section class='header'  bindtap='testHttp'>
+      <image  style="width: 100%;height;auto" mode='widthFix' src="https://static.zhongan.com/website/health/iybApp/activity/activity618/h_bg.png" alt=""/>
+      <image  class='ball' mode='widthFix' src="https://static.zhongan.com/website/health/iybApp/activity/activity618/ball.png" alt="footerball"/> 
+      <image  class='title' mode='widthFix' src="https://static.zhongan.com/website/health/iybApp/activity/activity618/char.png" alt="char"/>
+    </section>
+  </view>
+</lazy-load>

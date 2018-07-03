@@ -1,0 +1,46 @@
+.page_context{
+  min-height: 200vh;
+  background-image: url('https://static.zhongan.com/website/health/iybApp/activity/activity618/bg.png');
+  background-size: contain;
+}
+.header{
+  position: relative;
+}
+.ball{
+  position: absolute;
+  right: 140rpx;
+  height: 80rpx;
+  width: 80rpx;
+  margin-top: 36%;
+  animation: xuanzhuan 1s linear infinite;
+}
+.title{
+  width: 100vw;
+  position: absolute;
+  z-index: 1000;
+  left: 0px;
+  margin-top: 7%;
+  animation: scale 1s linear infinite;
+}
+
+@keyframes xuanzhuan{
+  from {
+    transform: rotate(0) 
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes scale{
+  0% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(.95)
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}

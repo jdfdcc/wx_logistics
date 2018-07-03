@@ -1,0 +1,6 @@
+<template name="item">
+  <text>我是template,我适合做页面展示。</text>
+  <view>
+    <text> {{msg}} </text>
+  </view>
+</template>

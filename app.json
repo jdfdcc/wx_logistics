@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/demo/activity618/activity",
+    "pages/demo/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "孙小空",
+    "navigationBarTextStyle": "black"
+  }
+}

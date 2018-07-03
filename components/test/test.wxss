@@ -1,0 +1,8 @@
+/* components/test.wxss */
+.test-component{
+  background: red;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}

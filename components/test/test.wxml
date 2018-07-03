@@ -1,0 +1,10 @@
+<view class="my-class test-component">
+  <text>标题：{{innerText}}</text>
+  <view bindtap='showClick'>
+    头部:<slot name="header"></slot>
+  </view>
+  内部内容
+  <view>
+    底部:<slot name="footer"></slot>
+  </view>
+</view>
